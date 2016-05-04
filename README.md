@@ -18,11 +18,14 @@ Detta är de områden vi skall täcka i portalen:
 * MySQL databas med webbgränssnitt för att filtrera och köpa produkter
 * Bygg en chatt. Websockets, socket.io, bygg ut med smilies och avatarer, bygg in i phonegap app
 * APIer, t ex spotify, bildgoogla låttexter och visa slideshow
-* Raspberry pi - när rörde sig någon senast i ditt rum + kameran
+* Raspberry pi - när rörde sig någon senast i ditt rum + kameran + server som visar denna info.
 * Iphone accelerometern, läs av med javascript och gör något, kanske spel, färgskiftning
 * Enkelt ritprogram med canvas, väl färg och rita med musen eller touch
+* Övervaka en blomma om den behöver vattnas. Raspberry och Wio Link.
 
 ## Övningar
+
+Övningarna kan skapas som kataloger, med markdown-filer, som Kodcentrum gjort https://github.com/Kodcentrum/Scratch-uppgifter
 
 ### Hemsidekonstruktion
 
