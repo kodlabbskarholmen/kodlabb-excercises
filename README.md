@@ -22,6 +22,8 @@ Detta är de områden vi skall täcka i portalen:
 * Iphone accelerometern, läs av med javascript och gör något, kanske spel, färgskiftning
 * Enkelt ritprogram med canvas, väl färg och rita med musen eller touch
 * Övervaka en blomma om den behöver vattnas. Raspberry och Wio Link.
+* Gör din egen instagram. Ladda upp bild, like:a
+* Skriv ut multiplikationstabellen i terminalen
 
 ## Övningar
 
