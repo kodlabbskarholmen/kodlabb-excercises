@@ -41,6 +41,7 @@ Detta är de områden vi skall täcka i portalen:
 
 Befinliga utbildningssajter och verktyg
 
+* 40 maps that explain the internet http://www.vox.com/a/internet-maps
 * https://www.codeschool.com/
 * http://codepen.io/
 * http://www.w3schools.com/
