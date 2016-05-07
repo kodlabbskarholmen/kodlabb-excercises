@@ -1,12 +1,17 @@
 var express = require('express');
+var app = express();
+
 var http = require('http');
 var socketio = require('socket.io');
 
-var app = express();
 var server = http.Server(app);
 var io = socketio(server);
 
 app.get("/", function(req, res){
+  res.send('Hello world');
+});
+
+app.get("/chat", function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
 
