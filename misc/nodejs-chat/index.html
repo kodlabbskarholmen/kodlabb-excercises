@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+    
+    function sendMessage(){
+      var messageField = document.getElementById('message');
+      socket.emit('chatMessage', messageField.value);
+      messageField.value = '';
+    }
+
+    socket.on('chatMessage', function(msg){
+      var messagesDiv = document.getElementById('messages');
+      messagesDiv.innerHTML = messagesDiv.innerHTML + msg + '<br/>';
+    });
+  </script>
+  <style>
+    body{
+      font-family:sans-serif;
+    }
+    #messages {
+      width:400px;
+      height:200px;
+      border:1px silver solid;
+      padding:10px;
+      margin-bottom:10px;
+      overflow:scroll;
+    }
+  </style>
+</head>
+<body>
+  <div id="messages" style=""></div>
+  <input id="message" autocomplete="off" />
+  <button onclick="sendMessage()">Send</button>
+</body>
+</html>
