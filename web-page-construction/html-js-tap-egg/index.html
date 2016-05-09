@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tap egg</title>
+  <meta charset="utf-8">
+  <script>
+    var count = 1000000;
+    function tap(){
+      count --;
+      document.getElementById('countDisplay').innerText = count;
+      if (count == 0){
+        alert('Gurka');
+      }
+    }
+  </script>
+  <style>
+    .wrap {
+      width:auto;
+      height:auto;
+      margin:auto;
+      text-align:center;
+      position:relative;
+    }
+    .wrap span {
+      font-family:verdana;
+      position: absolute;
+      margin: auto;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      color:#fff;
+      height:40px;
+    }
+    .wrap img {
+      max-width:100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <img onclick="tap()" src="egg.jpg"/>
+    <span id="countDisplay">1000000</span>
+  </div>
+</body>
+</html>
