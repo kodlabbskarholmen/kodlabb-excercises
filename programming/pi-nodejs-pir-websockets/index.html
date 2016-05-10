@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PIR motion sensor + websockets</title>
+  <meta charset="utf-8">
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+    body {
+      background-color: #555555;
+      color: #fff;
+      font-family: Arial,Helvetica,sans-serif;
+    }
+    #status{
+      margin-top:50px;
+      text-align: center;
+      font-size:150px;
+    }
+  </style>
+  <script>
+    var socket = io();
+    socket.on('movement', function(val){
+      if (val) {
+        document.getElementById("status").innerHTML = "Rörelse";
+        document.body.style.backgroundColor = "red";
+      }
+      else{
+        document.getElementById("status").innerHTML = "Ingen rörelse...";
+        document.body.style.backgroundColor = "#555555";
+      }
+    });
+  </script>
+</head>
+<body>
+  <div id="status"></div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "pir-websockets",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "express": "latest",
+    "socket.io": "latest",
+    "http": "latest",
+    "gpio": "latest"
+  }
+}
