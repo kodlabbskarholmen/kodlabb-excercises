@@ -24,6 +24,7 @@ Detta är de områden vi skall täcka i portalen:
 * Övervaka en blomma om den behöver vattnas. Raspberry och Wio Link.
 * Gör din egen instagram. Ladda upp bild, like:a
 * Skriv ut multiplikationstabellen i terminalen
+* Koppla på lite fräna mätningar i analytics på befintliga övningar
 
 ## Övningar
 
