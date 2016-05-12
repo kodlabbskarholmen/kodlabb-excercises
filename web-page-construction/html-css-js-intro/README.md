@@ -113,13 +113,25 @@ Bild:
 <img src="bild.jpg" />
 ```
 
-Todo:
+## Övingsmoment - Påverka utseendet med CSS
 
+Innanför ```<head>``` taggen, lägg till en ```<style>``` tagg. I style-taggen kan man skriva CSS kod för att påverka utseendet på elementen i sidan.
 
-### Lägg till CSS sektion, byt typsnitt, färger, centrering
+Börja med följande kod:
+```
+<style>
+body {
+  background-color:#666666;
+  color:#ffffff;
+  text-align:center;
+}
+</style>
+```
+
+Ladda om sidan, nu skall sidan ha grå bakgrundsfärg, vit förgrundsfärg och elementen skall vara centrerade.
+
+Todo: css för taggar, klasser, id. Typsnitt, länk till referens. Lägg i separat fil.
 
 ### Börja använda inspectorn, kolla på andra sajter, redigera i inspectorn
-
-### Css klasser, cascading
 
 ### Javascript, byt css klass med knapp, inspektera dom:en, kör konsolen
