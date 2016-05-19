@@ -7,11 +7,11 @@
 
 ### Om HTML, CSS och Javascript
 
-HTML (Hyper Text Markup Language) är ett kodspråk för att beskriva webbsidor. Med hjälp av taggar kan man förklara för en webbläsare vad den skall visa upp och hur sidan skall fungera.
+**HTML** (Hyper Text Markup Language) är ett kodspråk för att beskriva webbsidor. Med hjälp av taggar kan man förklara för en webbläsare vad den skall visa upp och hur sidan skall fungera.
 
-CSS (Cascading Style Sheets) är ett kodspråk för att beskriva hur innehållet i webbsidan skall se ut. Som typsnitt, färger, avstånd och layout.
+**CSS** (Cascading Style Sheets) är ett kodspråk för att beskriva hur innehållet i webbsidan skall se ut. Som typsnitt, färger, avstånd och layout.
 
-Javascript är ett scriptspråk som man kan använda för att addera funktionalitet och interaktivitet till webbsidor.
+**Javascript** är ett scriptspråk som man kan använda för att addera funktionalitet och interaktivitet till webbsidor.
 
 Alla dessa språk kan man skriva som text i ett enkelt textredigeringsprogram, t ex notepad på Windows. När man sedan öppnar dessa med en webbläsare läser den koden och visar upp resultatet.
 
