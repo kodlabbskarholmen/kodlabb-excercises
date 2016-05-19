@@ -1,4 +1,4 @@
-# Övning - Skapa ett flöde/en "feed" med HTML, CSS och PHP
+# Övning - Skapa ett flöde/"feed" med HTML, CSS och PHP
 
 ## Verktyg som behövs
 
